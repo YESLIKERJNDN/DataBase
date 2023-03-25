@@ -16,7 +16,7 @@ function Emoji()
 		if v.UserId == 77561039 then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[#1 🤠] '..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[big hairy daddy 👑] ')
 				end
 			end
 		elseif table.find(Premium, v.UserId) then
