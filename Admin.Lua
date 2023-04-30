@@ -1,5 +1,6 @@
 local Premium = {
 	2654810410,
+	3291207124,
 	
 	
 
@@ -13,7 +14,7 @@ local Blacklisted = {
 
 function Emoji()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
-		if v.UserId == 77561039 then
+		if v.UserId == 1440001692 then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[big hairy daddy 👑] ')
